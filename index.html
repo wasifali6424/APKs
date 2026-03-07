@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -7,7 +8,8 @@
 
   <!-- Primary Meta -->
   <meta name="title" content="DT Store — Download Apps" />
-  <meta name="description" content="DT Store is your trusted source to download the latest Android APKs. Fast, safe, and direct downloads." />
+  <meta name="description"
+    content="DT Store is your trusted source to download the latest Android APKs. Fast, safe, and direct downloads." />
   <meta name="keywords" content="DT Store, APK download, Android apps, free apps, Listlyo" />
   <meta name="author" content="DT Store" />
   <meta name="robots" content="index, follow" />
@@ -30,10 +32,18 @@
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap"
+    rel="stylesheet" />
 
   <style>
-    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    *,
+    *::before,
+    *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
 
     :root {
       --bg: #0a0a0f;
@@ -48,7 +58,9 @@
       --danger: #ff4757;
     }
 
-    html { scroll-behavior: smooth; }
+    html {
+      scroll-behavior: smooth;
+    }
 
     body {
       background: var(--bg);
@@ -64,8 +76,8 @@
       position: fixed;
       inset: 0;
       background-image:
-        linear-gradient(rgba(0,229,255,0.03) 1px, transparent 1px),
-        linear-gradient(90deg, rgba(0,229,255,0.03) 1px, transparent 1px);
+        linear-gradient(rgba(0, 229, 255, 0.03) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(0, 229, 255, 0.03) 1px, transparent 1px);
       background-size: 40px 40px;
       pointer-events: none;
       z-index: 0;
@@ -80,7 +92,7 @@
       transform: translateX(-50%);
       width: 600px;
       height: 600px;
-      background: radial-gradient(circle, rgba(124,58,237,0.12) 0%, transparent 70%);
+      background: radial-gradient(circle, rgba(124, 58, 237, 0.12) 0%, transparent 70%);
       pointer-events: none;
       z-index: 0;
     }
@@ -94,7 +106,7 @@
       align-items: center;
       justify-content: space-between;
       padding: 16px 40px;
-      background: rgba(10,10,15,0.85);
+      background: rgba(10, 10, 15, 0.85);
       backdrop-filter: blur(16px);
       border-bottom: 1px solid var(--border);
     }
@@ -116,8 +128,8 @@
       font-weight: 500;
       padding: 4px 10px;
       border-radius: 20px;
-      background: rgba(0,229,255,0.1);
-      border: 1px solid rgba(0,229,255,0.2);
+      background: rgba(0, 229, 255, 0.1);
+      border: 1px solid rgba(0, 229, 255, 0.2);
       color: var(--accent);
       letter-spacing: 1px;
       text-transform: uppercase;
@@ -270,9 +282,9 @@
     }
 
     .app-card:hover {
-      border-color: rgba(0,229,255,0.3);
+      border-color: rgba(0, 229, 255, 0.3);
       transform: translateY(-4px);
-      box-shadow: 0 20px 60px rgba(0,0,0,0.4), 0 0 0 1px rgba(0,229,255,0.1);
+      box-shadow: 0 20px 60px rgba(0, 0, 0, 0.4), 0 0 0 1px rgba(0, 229, 255, 0.1);
     }
 
     .app-card::before {
@@ -343,8 +355,8 @@
     .app-version {
       font-size: 0.7rem;
       padding: 3px 8px;
-      background: rgba(0,229,255,0.08);
-      border: 1px solid rgba(0,229,255,0.15);
+      background: rgba(0, 229, 255, 0.08);
+      border: 1px solid rgba(0, 229, 255, 0.15);
       color: var(--accent);
       border-radius: 6px;
       margin-top: 6px;
@@ -392,7 +404,7 @@
       font-size: 0.68rem;
       padding: 3px 9px;
       border-radius: 20px;
-      background: rgba(255,255,255,0.04);
+      background: rgba(255, 255, 255, 0.04);
       border: 1px solid var(--border);
       color: var(--muted);
       text-transform: uppercase;
@@ -405,8 +417,8 @@
       padding: 13px 20px;
       border: none;
       border-radius: 12px;
-      background: linear-gradient(135deg, rgba(0,229,255,0.12), rgba(124,58,237,0.12));
-      border: 1px solid rgba(0,229,255,0.2);
+      background: linear-gradient(135deg, rgba(0, 229, 255, 0.12), rgba(124, 58, 237, 0.12));
+      border: 1px solid rgba(0, 229, 255, 0.2);
       color: var(--accent);
       font-family: 'DM Sans', sans-serif;
       font-size: 0.9rem;
@@ -437,11 +449,12 @@
     .download-btn:hover {
       color: #fff;
       border-color: transparent;
-      box-shadow: 0 8px 30px rgba(0,229,255,0.25);
+      box-shadow: 0 8px 30px rgba(0, 229, 255, 0.25);
       transform: translateY(-1px);
     }
 
-    .download-btn span, .download-btn svg {
+    .download-btn span,
+    .download-btn svg {
       position: relative;
       z-index: 1;
     }
@@ -452,13 +465,13 @@
     }
 
     .download-btn.loading::before {
-      background: linear-gradient(135deg, rgba(0,229,255,0.2), rgba(124,58,237,0.2));
+      background: linear-gradient(135deg, rgba(0, 229, 255, 0.2), rgba(124, 58, 237, 0.2));
       opacity: 1;
     }
 
     .download-btn.success {
-      border-color: rgba(0,200,150,0.4);
-      background: rgba(0,200,150,0.1);
+      border-color: rgba(0, 200, 150, 0.4);
+      background: rgba(0, 200, 150, 0.1);
       color: var(--success);
     }
 
@@ -486,11 +499,16 @@
     }
 
     /* Spinner */
-    @keyframes spin { to { transform: rotate(360deg); } }
+    @keyframes spin {
+      to {
+        transform: rotate(360deg);
+      }
+    }
+
     .spinner {
       width: 14px;
       height: 14px;
-      border: 2px solid rgba(255,255,255,0.3);
+      border: 2px solid rgba(255, 255, 255, 0.3);
       border-top-color: currentColor;
       border-radius: 50%;
       animation: spin 0.7s linear infinite;
@@ -515,19 +533,38 @@
 
     /* ===== ANIMATIONS ===== */
     @keyframes fadeUp {
-      from { opacity: 0; transform: translateY(20px); }
-      to { opacity: 1; transform: translateY(0); }
+      from {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
     }
 
     /* ===== MOBILE ===== */
     @media (max-width: 600px) {
-      nav { padding: 14px 20px; }
-      .hero { padding: 60px 20px 40px; }
-      .hero-stats { gap: 24px; }
-      .apps-grid { grid-template-columns: 1fr; }
+      nav {
+        padding: 14px 20px;
+      }
+
+      .hero {
+        padding: 60px 20px 40px;
+      }
+
+      .hero-stats {
+        gap: 24px;
+      }
+
+      .apps-grid {
+        grid-template-columns: 1fr;
+      }
     }
   </style>
 </head>
+
 <body>
 
   <!-- NAVBAR -->
@@ -539,7 +576,7 @@
   <!-- HERO -->
   <section class="hero">
     <div class="hero-eyebrow">Official App Store</div>
-    <h1>Download <span>Apps</span><br/>Built Different</h1>
+    <h1>Download <span>Apps</span><br />Built Different</h1>
     <p>Safe, fast, and direct APK downloads. No redirects, no ads, no nonsense.</p>
     <div class="hero-stats">
       <div class="stat">
@@ -583,23 +620,22 @@
       {
         name: "Listlyo",
         developer: "Wasif Ali",
-        description: "A smart list & task management app built for everyday productivity. Organize your tasks effortlessly.",
+        description: "A simple and modern product listing platform to showcase and organize products easily.",
         version: "v1.0.0",
-        size: "~60 MB",
-        category: "shopping",
-        tags: ["ecoommerce"],
-        icon: "📋",                             // emoji or image URL
+        size: "~57 MB",
+        category: "Shopping",
+        tags: ["ecommerce", "listing"],
+        icon: "📋",
         apkUrl: "/public/Listlyo.apk",
         fileName: "Listlyo.apk",
         delay: "0.6s"
       },
-      // ---- ADD MORE APPS BELOW ----
       {
         name: "Tasklyo",
         developer: "Wasif Ali",
-        description: "A smart list & task management app built for everyday productivity. Organize your tasks effortlessly.",
+        description: "A modern task management and productivity app with focus timer and Islamic productivity tools.",
         version: "v1.4.3",
-        size: "~90 MB",
+        size: "~88 MB",
         category: "Productivity",
         tags: ["Tasks", "Lists", "Organizer"],
         icon: "📋",
@@ -607,19 +643,18 @@
         fileName: "Tasklyo.apk",
         delay: "0.7s"
       },
-
       {
         name: "Studilyo",
         developer: "Wasif Ali",
-        description: "A smart app for students to manage their studies and tasks.",
-        version: "v1.0.7",
-        size: "~90 MB",
+        description: "A student productivity app with attendance tracker, MCQ practice, and AI CV generator.",
+        version: "v1.0.8",
+        size: "~62 MB",
         category: "Education",
-        tags: ["Education" , "Tasks", "Organizer"],
+        tags: ["Education", "Student", "Organizer"],
         icon: "📋",
         apkUrl: "/public/Studilyo.apk",
         fileName: "Studilyo.apk",
-        delay: "0.7s"
+        delay: "0.8s"
       },
     ];
 
@@ -659,126 +694,14 @@
             </div>
           </div>
           <div class="tags">${tagsHTML}</div>
-          <button class="download-btn" onclick="downloadAPK(this, '${app.apkUrl}', '${app.fileName}')">
+          <a class="download-btn" href="${app.apkUrl}" download="${app.fileName}">
             <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
-            <div class="spinner"></div>
             <span>Download APK</span>
-          </button>
-          <div class="progress-wrap"><div class="progress-bar"></div></div>
+          </a>
         </div>
       `;
     });
-
-    // =============================================
-    // DOWNLOAD FUNCTION (Blob — no stuck at 100%)
-    // =============================================
-    async function downloadAPK(btn, url, fileName) {
-      if (btn.disabled) return;
-
-      const spinner = btn.querySelector('.spinner');
-      const label = btn.querySelector('span');
-      const icon = btn.querySelector('svg:not(.spinner)') || btn.querySelector('svg');
-      const progressWrap = btn.nextElementSibling;
-      const progressBar = progressWrap.querySelector('.progress-bar');
-
-      btn.disabled = true;
-      btn.classList.add('loading');
-      spinner.style.display = 'block';
-      if (icon) icon.style.display = 'none';
-      label.textContent = 'Starting...';
-      progressWrap.style.display = 'block';
-      progressBar.style.width = '10%';
-
-      try {
-        const response = await fetch(url);
-
-        if (!response.ok) throw new Error('Fetch failed');
-
-        const contentLength = response.headers.get('Content-Length');
-        const total = contentLength ? parseInt(contentLength) : null;
-        const reader = response.body.getReader();
-        const chunks = [];
-        let received = 0;
-
-        progressBar.style.width = '20%';
-        label.textContent = 'Downloading...';
-
-        while (true) {
-          const { done, value } = await reader.read();
-          if (done) break;
-          chunks.push(value);
-          received += value.length;
-
-          if (total) {
-            const pct = Math.min(90, Math.round((received / total) * 90));
-            progressBar.style.width = pct + '%';
-          } else {
-            // Fake incremental progress if size unknown
-            const cur = parseFloat(progressBar.style.width) || 20;
-            if (cur < 85) progressBar.style.width = (cur + 3) + '%';
-          }
-        }
-
-        progressBar.style.width = '95%';
-        label.textContent = 'Preparing...';
-
-        const blob = new Blob(chunks);
-        const blobUrl = URL.createObjectURL(blob);
-
-        const a = document.createElement('a');
-        a.href = blobUrl;
-        a.download = fileName;
-        document.body.appendChild(a);
-        a.click();
-        document.body.removeChild(a);
-        URL.revokeObjectURL(blobUrl);
-
-        progressBar.style.width = '100%';
-        progressBar.style.background = 'var(--success)';
-
-        setTimeout(() => {
-          btn.classList.remove('loading');
-          btn.classList.add('success');
-          spinner.style.display = 'none';
-          if (icon) icon.style.display = 'block';
-          label.textContent = '✓ Downloaded!';
-          btn.disabled = false;
-
-          setTimeout(() => {
-            btn.classList.remove('success');
-            label.textContent = 'Download APK';
-            progressWrap.style.display = 'none';
-            progressBar.style.width = '0%';
-            progressBar.style.background = '';
-          }, 3000);
-        }, 400);
-
-      } catch (err) {
-        // Fallback: direct link if fetch/CORS fails
-        progressBar.style.background = 'var(--danger)';
-        label.textContent = 'Opening download...';
-        spinner.style.display = 'none';
-        if (icon) icon.style.display = 'block';
-        btn.disabled = false;
-        btn.classList.remove('loading');
-
-        const a = document.createElement('a');
-        a.href = url;
-        a.download = fileName;
-        a.target = '_blank';
-        a.rel = 'noopener noreferrer';
-        document.body.appendChild(a);
-        a.click();
-        document.body.removeChild(a);
-
-        setTimeout(() => {
-          label.textContent = 'Download APK';
-          progressWrap.style.display = 'none';
-          progressBar.style.width = '0%';
-          progressBar.style.background = '';
-        }, 2000);
-      }
-    }
   </script>
 </body>
+
 </html>
