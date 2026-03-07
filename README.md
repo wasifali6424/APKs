@@ -1,107 +1,96 @@
-📦 APKs Collection – Android Apps by Wasif Ali
+<h1 align="center">📦 APKs Collection</h1>
 
-📱 A collection of Android APK builds developed by Wasif Ali
+<h3 align="center">Android Apps by Wasif Ali</h3>
+
+<p align="center">
+<img src="https://img.shields.io/badge/Android-Apps-green?style=for-the-badge&logo=android">
+<img src="https://img.shields.io/badge/Developer-Wasif%20Ali-blue?style=for-the-badge">
+<img src="https://img.shields.io/github/stars/wasifali6424/APKs?style=for-the-badge">
+<img src="https://img.shields.io/github/repo-size/wasifali6424/APKs?style=for-the-badge">
+</p>
+
+<p align="center">
+📱 A collection of <b>Android APK builds</b> developed by <b>Wasif Ali</b> <br>
 🚀 Download and explore my Android applications easily.
+</p>
 
-👨‍💻 About the Developer
+---
 
-Hi, I'm Wasif Ali, the developer behind Developers Tech.
+# 👨‍💻 About the Developer
 
-💻 Web Developer
+Hi, I'm **Wasif Ali**, the developer behind **Developers Tech**.
 
-📱 Android App Builder
+💻 Web Developer  
+📱 Android App Builder  
+✍ Content Writer  
 
-✍ Content Writer
+I create **modern digital tools and productivity apps** for students and everyday users.
 
-I create modern digital tools and productivity apps for students and everyday users.
-
-🌐 Portfolio Website
+🌐 **Portfolio Website**  
 👉 https://developerstech.netlify.app
 
-📱 Applications in This Repository
+---
+
+# 📱 Applications in This Repository
 
 This repository contains APK builds of the following applications.
 
-🚀 Tasklyo – Task Manager App
+---
 
-Tasklyo is a modern productivity and task management application that helps users organize daily work and stay focused.
+# 🚀 Tasklyo – Task Manager App
 
-✨ Features
+Tasklyo is a **modern productivity and task management application** that helps users organize daily work and stay focused.
 
-📋 Smart task management
+### ✨ Features
 
-⭐ Priority task system
+- 📋 Smart task management  
+- ⭐ Priority task system  
+- ⏱ Focus sprint timer  
+- 🎨 Clean and minimal UI  
+- ☪ Islamic productivity tools  
 
-⏱ Focus sprint timer
-
-🎨 Clean and minimal UI
-
-☪ Islamic productivity tools
-
-🌐 Website
+🌐 Website  
 https://tasklyo.netlify.app
 
-🎓 Studilyo – Student Productivity Platform
+---
 
-Studilyo is a student-focused platform designed to help learners track their academic progress and prepare for exams.
+# 🎓 Studilyo – Student Productivity Platform
 
-✨ Features
+Studilyo is a **student-focused platform** designed to help learners track their academic progress and prepare for exams.
 
-📊 Attendance tracking
+### ✨ Features
 
-🧠 MCQ practice system
+- 📊 Attendance tracking  
+- 🧠 MCQ practice system  
+- 📝 Self testing tools  
+- 📄 AI CV generator  
+- 📚 Student productivity tools  
 
-📝 Self testing tools
-
-📄 AI CV generator
-
-📚 Student productivity tools
-
-🌐 Website
+🌐 Website  
 https://studilyo.netlify.app
 
-🛒 Listlyo – Product Listing Platform
+---
 
-Listlyo is a simple eCommerce-style product listing platform where products can be organized and browsed easily.
+# 🛒 Listlyo – Product Listing Platform
 
-✨ Features
+Listlyo is a **simple eCommerce-style product listing platform** where products can be organized and browsed easily.
 
-🛍 Product listing system
+### ✨ Features
 
-📂 Multiple product categories
+- 🛍 Product listing system  
+- 📂 Multiple product categories  
+- 🔍 Easy product browsing  
+- ⚡ Clean interface  
 
-🔍 Easy product browsing
-
-⚡ Clean interface
-
-🌐 Website
+🌐 Website  
 https://tasklyo.netlify.app
 
-📥 Installation Guide
+---
 
-1️⃣ Download the APK from this repository
-2️⃣ Transfer the APK to your Android device
-3️⃣ Enable Install from Unknown Apps in your device settings
-4️⃣ Tap the APK file to install the app
+# 📥 Installation Guide
 
-⚠ Important Notes
-
-These APKs are provided for testing and demonstration
-
-Some apps may still be under development
-
-Updates may be released in the future
-
-🌐 Connect With Me
-
-💻 GitHub
-https://github.com/wasifali6424
-
-🌐 Portfolio
-https://developerstech.netlify.app
-
-🚀 Developers Tech
-
-Building modern web and Android applications with simplicity and creativity.
-
-⭐ If you like these projects, consider starring this repository.
+```bash
+1. Download the APK from this repository
+2. Transfer the APK to your Android device
+3. Enable "Install Unknown Apps" in your device settings
+4. Tap the APK file to install the app
