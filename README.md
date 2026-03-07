@@ -10,8 +10,8 @@
 </p>
 
 <p align="center">
-📱 A collection of <b>Apps builds</b> developed by <b>Wasif Ali</b> <br>
-🚀 Download and explore my Android applications easily.
+📱 A collection of <b>Apps</b> developed by <b>Wasif Ali</b> <br>
+🚀 Download and explore my applications easily.
 </p>
 
 ---
@@ -90,7 +90,8 @@ https://tasklyo.netlify.app
 # 📥 Installation Guide
 
 ```bash
-1. Download the APK from this repository
-2. Transfer the APK to your Android device
+1. Download the App from this repository or from the Developers Tech App store
+https://dtstore.netlify.app
+2. Transfer the App to your Android device
 3. Enable "Install Unknown Apps" in your device settings
-4. Tap the APK file to install the app
+4. Tap the App file to install the app
