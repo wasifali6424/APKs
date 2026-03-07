@@ -1,6 +1,6 @@
-<h1 align="center">📦 APKs Collection</h1>
+<h1 align="center">📦 Apps Collection</h1>
 
-<h3 align="center">Android Apps by Wasif Ali</h3>
+<h3 align="center">Apps by Wasif Ali</h3>
 
 <p align="center">
 <img src="https://img.shields.io/badge/Android-Apps-green?style=for-the-badge&logo=android">
@@ -10,7 +10,7 @@
 </p>
 
 <p align="center">
-📱 A collection of <b>Android APK builds</b> developed by <b>Wasif Ali</b> <br>
+📱 A collection of <b>Apps builds</b> developed by <b>Wasif Ali</b> <br>
 🚀 Download and explore my Android applications easily.
 </p>
 
