@@ -91,7 +91,10 @@ https://tasklyo.netlify.app
 
 ```bash
 1. Download the App from this repository or from the Developers Tech App store
+
+🌐 Website  
 https://dtstore.netlify.app
+
 2. Transfer the App to your Android device
-3. Enable "Install Unknown Apps" in your device settings
+3. Enable Install Unknown Apps in your device settings
 4. Tap the App file to install the app
