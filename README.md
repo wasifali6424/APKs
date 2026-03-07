@@ -33,7 +33,7 @@ I create **modern digital tools and productivity apps** for students and everyda
 
 # 📱 Applications in This Repository
 
-This repository contains APK builds of the following applications.
+This repository contains applications developed by **Wasif Ali**.
 
 ---
 
@@ -89,12 +89,14 @@ https://tasklyo.netlify.app
 
 # 📥 Installation Guide
 
+You can download the apps directly from the **Developers Tech App Store**.
+
+🌐 Developers Tech App Store  
+👉 https://dtstore.netlify.app
+
 ```bash
-1. Download the App from this repository or from the Developers Tech App store
-
-🌐 Website  
-https://dtstore.netlify.app
-
-2. Transfer the App to your Android device
-3. Enable Install Unknown Apps in your device settings
-4. Tap the App file to install the app
+1. Open the Developers Tech App Store
+2. Download the APK of the app you want
+3. Transfer the APK to your Android device (if downloaded on PC)
+4. Enable "Install Unknown Apps" in your device settings
+5. Tap the APK file to install the application
