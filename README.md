@@ -1,6 +1,6 @@
-<h1 align="center">📦 APKs Collection</h1>
+<h1 align="center">📦 Apps Collection</h1>
 
-<h3 align="center">Android Apps by Wasif Ali</h3>
+<h3 align="center">Apps by Wasif Ali</h3>
 
 <p align="center">
 <img src="https://img.shields.io/badge/Android-Apps-green?style=for-the-badge&logo=android">
@@ -10,8 +10,8 @@
 </p>
 
 <p align="center">
-📱 A collection of <b>Android APK builds</b> developed by <b>Wasif Ali</b> <br>
-🚀 Download and explore my Android applications easily.
+📱 A collection of <b>Apps</b> developed by <b>Wasif Ali</b> <br>
+🚀 Download and explore my applications easily.
 </p>
 
 ---
@@ -33,7 +33,7 @@ I create **modern digital tools and productivity apps** for students and everyda
 
 # 📱 Applications in This Repository
 
-This repository contains APK builds of the following applications.
+This repository contains applications developed by **Wasif Ali**.
 
 ---
 
@@ -89,8 +89,14 @@ https://tasklyo.netlify.app
 
 # 📥 Installation Guide
 
+You can download the apps directly from the **Developers Tech App Store**.
+
+🌐 Developers Tech App Store  
+👉 https://dtstore.netlify.app
+
 ```bash
-1. Download the APK from this repository
-2. Transfer the APK to your Android device
-3. Enable "Install Unknown Apps" in your device settings
-4. Tap the APK file to install the app
+1. Open the Developers Tech App Store
+2. Download the APK of the app you want
+3. Transfer the APK to your Android device (if downloaded on PC)
+4. Enable "Install Unknown Apps" in your device settings
+5. Tap the APK file to install the application
