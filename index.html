@@ -570,7 +570,7 @@
   <!-- NAVBAR -->
   <nav>
     <div class="nav-logo">DT <span>Store</span></div>
-    <div class="nav-badge">Android</div>
+    <div class="nav-badge">Android & Windows</div>
   </nav>
 
   <!-- HERO -->
@@ -626,9 +626,10 @@
         category: "Shopping",
         tags: ["ecommerce", "listing"],
         icon: "📋",
-        apkUrl: "/public/Listlyo.apk",
+        url: "/public/Listlyo.apk",
         fileName: "Listlyo.apk",
-        delay: "0.6s"
+        platform: "Android",
+        delay: "0.1s"
       },
       {
         name: "Tasklyo",
@@ -639,9 +640,10 @@
         category: "Productivity",
         tags: ["Tasks", "Lists", "Organizer"],
         icon: "📋",
-        apkUrl: "/public/Tasklyo.apk",
+        url: "/public/Tasklyo.apk",
         fileName: "Tasklyo.apk",
-        delay: "0.7s"
+        platform: "Android",
+        delay: "0.2s"
       },
       {
         name: "Studilyo",
@@ -652,24 +654,67 @@
         category: "Education",
         tags: ["Education", "Student", "Organizer"],
         icon: "📋",
-        apkUrl: "/public/Studilyo.apk",
+        url: "/public/Studilyo.apk",
         fileName: "Studilyo.apk",
-        delay: "0.8s"
+        platform: "Android",
+        delay: "0.3s"
       },
-
-       {
+      {
         name: "ToolsStack",
         developer: "Moazzam Ali",
-        description: "A student productivity app with calculqators and formulas",
+        description: "A student productivity app with calculators and formulas.",
         version: "v1.0.0",
         size: "~51 MB",
         category: "Education",
         tags: ["Education", "Student", "Organizer"],
         icon: "📋",
-        apkUrl: "/public/ToolsStack.apk",
+        url: "/public/ToolsStack.apk",
         fileName: "ToolsStack.apk",
-        delay: "0.8s"
+        platform: "Android",
+        delay: "0.4s"
       },
+      {
+        name: "Traffic Racer",
+        developer: "Wasif Ali",
+        description: "A high-speed arcade racing game where you drive through highway traffic, earn cash, and upgrade your cars.",
+        version: "v1.0.0",
+        size: "~44 MB",
+        category: "Games",
+        tags: ["Racing", "Arcade", "Windows"],
+        icon: "🏎️",
+        url: "/public/Traffic Racer.exe",
+        fileName: "Traffic Racer.exe",
+        platform: "Windows",
+        delay: "0.5s"
+      },
+      {
+        name: "Moazzam Cypher",
+        developer: "Moazzam Ali",
+        description: "An advanced encryption and decryption tool to secure your messages and sensitive data.",
+        version: "v1.0.0",
+        size: "~10 MB",
+        category: "Utilities",
+        tags: ["Security", "Encryption", "Windows"],
+        icon: "🔐",
+        url: "/public/Moazzam Cypher.exe",
+        fileName: "Moazzam Cypher.exe",
+        platform: "Windows",
+        delay: "0.6s"
+      },
+      {
+        name: "Scientific Calculator",
+        developer: "Moazzam Ali",
+        description: "A powerful scientific calculator for complex mathematical operations and engineering calculations.",
+        version: "v1.0.0",
+        size: "~10 MB",
+        category: "Education",
+        tags: ["Calculator", "Math", "Windows"],
+        icon: "🔢",
+        url: "/public/Scientific Calculator.exe",
+        fileName: "Scientific Calculator.exe",
+        platform: "Windows",
+        delay: "0.7s"
+      }
     ];
 
     // =============================================
@@ -685,6 +730,11 @@
         : app.icon;
 
       const tagsHTML = app.tags.map(t => `<span class="tag">${t}</span>`).join('');
+      
+      const downloadText = app.platform === 'Windows' ? 'Download EXE' : 'Download APK';
+      const platformIcon = app.platform === 'Windows' 
+        ? `<svg width="12" height="12" fill="currentColor" viewBox="0 0 24 24"><path d="M0 3.449L9.75 2.1V11.7H0V3.449zm0 17.1L9.75 21.9V12.3H0v8.249zM10.5 2L24 0v11.7H10.5V2zm0 19.9L24 24V12.3H10.5v9.6z"/></svg>`
+        : `<svg width="12" height="12" fill="currentColor" viewBox="0 0 24 24"><path d="M17.523 15.3414C17.0601 15.3414 16.6917 14.9664 16.6917 14.496C16.6917 14.0256 17.0601 13.6506 17.523 13.6506C17.9858 13.6506 18.3542 14.0256 18.3542 14.496C18.3542 14.9664 17.9858 15.3414 17.523 15.3414ZM6.47702 15.3414C6.01416 15.3414 5.64573 14.9664 5.64573 14.496C5.64573 14.0256 6.01416 13.6506 6.47702 13.6506C6.93988 13.6506 7.3083 14.0256 7.3083 14.496C7.3083 14.9664 6.93988 15.3414 6.47702 15.3414ZM17.8631 10.3722L19.4975 7.5006C19.6053 7.311 19.5412 7.0692 19.3543 6.96 19.1674 6.8508 18.9292 6.915 18.8214 7.1046L17.1593 10.0212C15.7176 9.3582 14.0988 9 12 9C9.90116 9 8.2824 9.3582 6.84067 10.0212L5.17865 7.1046C5.07085 6.915 4.8326 6.8508 4.64573 6.96C4.45885 7.0692 4.39466 7.311 4.50247 7.5006L6.13693 10.3722C3.15372 11.9982 1.15745 15.0216 1.01166 18.6H22.9883C22.8425 15.0216 20.8463 11.9982 17.8631 10.3722Z"/></svg>`;
 
       grid.innerHTML += `
         <div class="app-card" style="animation-delay:${app.delay}">
@@ -693,7 +743,9 @@
             <div class="app-info">
               <div class="app-name">${app.name}</div>
               <div class="app-dev">${app.developer}</div>
-              <div class="app-version">${app.version}</div>
+              <div class="app-version">
+                ${platformIcon} ${app.platform} · ${app.version}
+              </div>
             </div>
           </div>
           <p class="app-desc">${app.description}</p>
@@ -708,9 +760,9 @@
             </div>
           </div>
           <div class="tags">${tagsHTML}</div>
-          <a class="download-btn" href="${app.apkUrl}" download="${app.fileName}">
+          <a class="download-btn" href="${app.url}" download="${app.fileName}">
             <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
-            <span>Download APK</span>
+            <span>${downloadText}</span>
           </a>
         </div>
       `;
